@@ -1,0 +1,158 @@
+/* FUENTE IMPORTADA */
+@importar url('https://fonts.googleapis.com/css2? family= B612 & display=swap');
+
+
+/* AJUSTES PRINCIPALES DE LA PAGINA */
+
+html{
+    scroll-behavior: smooth;
+    transition: 0.5;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: table;
+    background-image:url(../img/Nicolas_copernico.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+
+/* NAVBAR */
+
+nav{
+    margin-top: 250px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+}
+nav ol{
+    display: inline-block;
+    flex-wrap: wrap;  
+    list-style: none;
+}
+
+nav ol li{
+    text-decoration: none;
+    float: left;
+    margin: 0 0.75em 0 0.75em;
+    padding-top: 12px;
+    
+}
+
+nav ol li a{
+    
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-size: 16pt;
+    text-transform: none;
+    transition: 0.25s ease;
+}
+
+nav ol:hover li a:hover.sombreado{
+    color:#928efb;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+/* SECTION (Cuerpo de la pagina web) */
+
+section{
+    padding: 6% 10% 0;
+    display: table;
+    background: linear-gradient(264deg, rgba(190,147,110,1) 1%, rgba(242,236,234,1) 39%, rgba(190,147,110,1) 100%);
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 3% 0;
+}
+
+/* TIPOS DE FONT */
+
+h1{
+    font-family: 'B612', sans-serif;
+    font-size: 35pt;
+    color: rgb(117, 123, 70);
+    float: left;
+    margin: 100px 0 0 16%;
+    text-shadow:  2px 2px 2px black;
+}
+
+h2{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    
+}
+
+div div h2 {
+    padding-top: 1%;
+    margin-bottom: 3%;
+}
+
+p{
+    text-align: justify;
+    font-size: 12pt;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* AUXILIARES */
+
+.izquierda{
+    margin-right: 50% ; 
+}
+
+.derecha{
+    margin-left: 40%;  
+}
+
+.target{
+    padding: 2%;
+    background-color: rgb(42, 33, 27);
+    border-radius: 7%;
+    display: table;
+    margin-bottom: 3%;
+}
+
+.inside_target{
+    background-color: #f2ecea;
+    border-radius: 7%;
+    display: table;
+    padding: 3%;
+}
+
+.text_img{
+    display: flex;
+}
+
+.img_horizontal{
+    width: 40%;
+    border-radius: 3%;
+    border: 2px solid black;
+    margin:0 2%;
+   
+}
+
+.margen_especial{
+    margin-right: 30% !important;
+}
